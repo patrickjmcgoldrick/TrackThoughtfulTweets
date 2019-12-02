@@ -7,24 +7,23 @@
 //
 
 import UIKit
-import Social
 
 class FeedViewController: UIViewController, UITableViewDelegate {
 
-    // Mark - Outlets
-    @IBOutlet weak var lblName: UILabel!
+    // MARK: - Outlets
+    @IBOutlet private weak var lblName: UILabel!
     
-    @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet private weak var lblDescription: UILabel!
     
-    @IBOutlet weak var ivProfile: UIImageView!
+    @IBOutlet private weak var ivProfile: UIImageView!
     
-    @IBOutlet weak var tvPosts: UITableView!
+    @IBOutlet private weak var tvPosts: UITableView!
     
-    /// MARK - parameters
-    var user : User?
+    // MARK: - parameters
+    var user: User?
     var tweets = [Tweet]()
 
-    /// MARK - View Did Load
+    // MARK: - View Did Load
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -35,7 +34,6 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         loadUserData()
         
         loadFeedData()
-        
     }
 
     private func loadUserData() {
@@ -45,9 +43,7 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         loader.loadTwitterProfile { (data) in
             
             self.parseData(data: data)
-
         }
-    
     }
 
     private func loadFeedData() {
@@ -79,9 +75,8 @@ class FeedViewController: UIViewController, UITableViewDelegate {
 
                 // save track rows for detail view
                 self.user = userData.data[0]
-
             } catch {
-                print ("Error Parsing JSON: \(error.localizedDescription)")
+                print("Error Parsing JSON: \(error.localizedDescription)")
             }
 
             DispatchQueue.main.async {
@@ -95,8 +90,6 @@ class FeedViewController: UIViewController, UITableViewDelegate {
                 self.tvPosts.reloadData()
             }
         }
- 
-
     }
     
     private func parseFeedData(data: Data) {
@@ -104,7 +97,6 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         if tweets.count == 0 {
             //print (String(bytes: data, encoding: .utf8)!)
         }
-        
         
         // background the loading / parsing elements
         DispatchQueue.global(qos: .background).async {
@@ -126,23 +118,20 @@ class FeedViewController: UIViewController, UITableViewDelegate {
                 }
                 
                 assert(self.tweets.count == temp.count, "tweets.count: \(self.tweets.count) should equal temp.count: \(temp.count)")
-                
             } catch {
-                print ("Error Parsing JSON: \(error.localizedDescription)")
+                print("Error Parsing JSON: \(error.localizedDescription)")
             }
 
             DispatchQueue.main.async {
                 
                 self.tvPosts.reloadData()
             }
-       }
-
-
+        }
     }
     
     private func parseLastFMData(data: Data) {
                
-        print (String(bytes: data, encoding: .utf8)!)
+        print(String(bytes: data, encoding: .utf8)!)
 
         // background the loading / parsing elements
         DispatchQueue.global(qos: .background).async {
@@ -155,10 +144,10 @@ class FeedViewController: UIViewController, UITableViewDelegate {
                 // decode json into structs
                 let tracks = try jsonDecoder.decode(LastFMData.self, from: data)
 
-                print ("TRACKS: \(tracks)") //.tracks[0].songs[0].name)")
+                print("TRACKS: \(tracks)") //.tracks[0].songs[0].name)")
 
             } catch {
-                print ("Error Parsing JSON: \(error.localizedDescription)")
+                print("Error Parsing JSON: \(error.localizedDescription)")
             }
 /*
            DispatchQueue.main.async {
@@ -172,14 +161,12 @@ class FeedViewController: UIViewController, UITableViewDelegate {
                self.tvPosts.reloadData()
            }
  */
-       }
-
-
+        }
     }
 
     /// Code from youtube video:  https://www.youtube.com/watch?v=edENrmrAOB4
     
-    @IBAction func btnActionPost(_ sender: Any) {
+    @IBAction private func btnActionPost(_ sender: Any) {
         
         TwitterDataLoader().loadLastFMData { (data) in
             
@@ -223,10 +210,9 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         
 */
     }
-
 }
 
-extension FeedViewController : UITableViewDataSource {
+extension FeedViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -237,7 +223,7 @@ extension FeedViewController : UITableViewDataSource {
         
         // get me X more rows
         if indexPath.row == (tweets.count - 1) {
-            print ("Getting more rows")
+            print("Getting more rows")
             loadFeedData()
         }
         
@@ -261,11 +247,6 @@ extension FeedViewController : UITableViewDataSource {
                     }
                 }
             }
-          
         }
-        
     }
-    
 }
-
-

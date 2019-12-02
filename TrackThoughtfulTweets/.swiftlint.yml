@@ -75,7 +75,10 @@ opt_in_rules:
 
 disabled_rules:
   - line_length
-
+  - unused_closure_parameter
+  - unneeded_parentheses_in_closure_argument
+  - trailing_whitespace
+  - vertical_whitespace_opening_braces
 identifier_name:
   excluded:
     - id
@@ -85,6 +88,7 @@ number_separator:
   minimum_length: 5
 file_name:
   excluded:
+    - SceneDelegate.swift
     - main.swift
     - LinuxMain.swift
     - TestHelpers.swift

@@ -9,7 +9,5 @@
 import UIKit
 
 class FeedTableViewCell: UITableViewCell {
-
     @IBOutlet weak var lblText: UILabel!
-
 }

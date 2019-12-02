@@ -10,7 +10,7 @@ import Foundation
 
 class ImageLoader {
     
-    func loadImage(urlString: String, imageLoaded: @escaping (Data) -> ()) {
+    func loadImage(urlString: String, imageLoaded: @escaping (Data) -> Void) {
                 
         guard let url = URL(string: urlString) else { return }
 
@@ -19,8 +19,6 @@ class ImageLoader {
             guard let data = data else { return }
 
              imageLoaded(data)
-
-         }.resume()
+        }.resume()
     }
-    
 }

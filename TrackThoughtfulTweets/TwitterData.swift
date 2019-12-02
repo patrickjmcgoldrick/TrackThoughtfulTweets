@@ -8,15 +8,11 @@
 
 import Foundation
 
-
-
 struct UserData: Codable {
-    
     var data: [User]
 }
 
 struct User: Codable {
-    
     var name: String
     var username: String
     var description: String
@@ -25,12 +21,10 @@ struct User: Codable {
 }
 
 struct FeedData: Codable {
-    
     var data: [Tweet]
 }
 
 struct Tweet: Codable {
-    
     var text: String
 }
 
@@ -39,7 +33,7 @@ struct LastFMData: Codable {
 }
 
 struct Track: Codable {
-    var track : [Song]?
+    var track: [Song]?
 }
 
 struct Song: Codable {
