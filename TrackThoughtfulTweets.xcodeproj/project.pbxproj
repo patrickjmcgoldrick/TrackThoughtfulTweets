@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		5E86E1BD2391E4A90031DBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1BC2391E4A90031DBF3 /* AppDelegate.swift */; };
 		5E86E1BF2391E4A90031DBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1BE2391E4A90031DBF3 /* SceneDelegate.swift */; };
-		5E86E1C12391E4A90031DBF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1C02391E4A90031DBF3 /* ViewController.swift */; };
+		5E86E1C12391E4A90031DBF3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1C02391E4A90031DBF3 /* FeedViewController.swift */; };
 		5E86E1C42391E4A90031DBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86E1C22391E4A90031DBF3 /* Main.storyboard */; };
 		5E86E1C62391E4AB0031DBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E86E1C52391E4AB0031DBF3 /* Assets.xcassets */; };
 		5E86E1C92391E4AB0031DBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86E1C72391E4AB0031DBF3 /* LaunchScreen.storyboard */; };
 		5E86E1D42391E4AC0031DBF3 /* TrackThoughtfulTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1D32391E4AC0031DBF3 /* TrackThoughtfulTweetsTests.swift */; };
 		5E86E1DF2391E4AC0031DBF3 /* TrackThoughtfulTweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1DE2391E4AC0031DBF3 /* TrackThoughtfulTweetsUITests.swift */; };
+		5E86E1ED2392063A0031DBF3 /* TwitterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1EC2392063A0031DBF3 /* TwitterData.swift */; };
+		5E86E1EF2394A53A0031DBF3 /* TwitterDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */; };
+		5E86E1F12394AC4C0031DBF3 /* FeedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1F02394AC4C0031DBF3 /* FeedDataSource.swift */; };
+		5E86E1F32394B4140031DBF3 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		5E86E1B92391E4A90031DBF3 /* TrackThoughtfulTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackThoughtfulTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E86E1BC2391E4A90031DBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E86E1BE2391E4A90031DBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E86E1C02391E4A90031DBF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E86E1C02391E4A90031DBF3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5E86E1C32391E4A90031DBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E86E1C52391E4AB0031DBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E86E1C82391E4AB0031DBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		5E86E1DA2391E4AC0031DBF3 /* TrackThoughtfulTweetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackThoughtfulTweetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E86E1DE2391E4AC0031DBF3 /* TrackThoughtfulTweetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackThoughtfulTweetsUITests.swift; sourceTree = "<group>"; };
 		5E86E1E02391E4AC0031DBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E86E1EC2392063A0031DBF3 /* TwitterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterData.swift; sourceTree = "<group>"; };
+		5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterDataLoader.swift; sourceTree = "<group>"; };
+		5E86E1F02394AC4C0031DBF3 /* FeedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataSource.swift; sourceTree = "<group>"; };
+		5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				5E86E1BC2391E4A90031DBF3 /* AppDelegate.swift */,
 				5E86E1BE2391E4A90031DBF3 /* SceneDelegate.swift */,
-				5E86E1C02391E4A90031DBF3 /* ViewController.swift */,
-				5E86E1C22391E4A90031DBF3 /* Main.storyboard */,
+				5E86E1C02391E4A90031DBF3 /* FeedViewController.swift */,
+				5E86E1EC2392063A0031DBF3 /* TwitterData.swift */,
 				5E86E1C52391E4AB0031DBF3 /* Assets.xcassets */,
 				5E86E1C72391E4AB0031DBF3 /* LaunchScreen.storyboard */,
+				5E86E1C22391E4A90031DBF3 /* Main.storyboard */,
+				5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */,
 				5E86E1CA2391E4AB0031DBF3 /* Info.plist */,
+				5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */,
+				5E86E1F02394AC4C0031DBF3 /* FeedDataSource.swift */,
 			);
 			path = TrackThoughtfulTweets;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E86E1C12391E4A90031DBF3 /* ViewController.swift in Sources */,
+				5E86E1EF2394A53A0031DBF3 /* TwitterDataLoader.swift in Sources */,
+				5E86E1C12391E4A90031DBF3 /* FeedViewController.swift in Sources */,
+				5E86E1F32394B4140031DBF3 /* FeedTableViewCell.swift in Sources */,
+				5E86E1F12394AC4C0031DBF3 /* FeedDataSource.swift in Sources */,
+				5E86E1ED2392063A0031DBF3 /* TwitterData.swift in Sources */,
 				5E86E1BD2391E4A90031DBF3 /* AppDelegate.swift in Sources */,
 				5E86E1BF2391E4A90031DBF3 /* SceneDelegate.swift in Sources */,
 			);
