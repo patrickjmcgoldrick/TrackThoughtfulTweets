@@ -1,11 +1,10 @@
-
 # Twitter API:
-* GET
++ GET
 * POST
-* Decode JSON
-* Pagination
++ Decode JSON
++ Pagination
 * Lazy Loading
-* GCD || Operation Queues
++ GCD || Operation Queues
 * Upload Image / ask for permission
 * Swiftlint
 * UX / UI

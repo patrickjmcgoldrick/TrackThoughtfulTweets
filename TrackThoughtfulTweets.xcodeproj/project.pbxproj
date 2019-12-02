@@ -17,7 +17,6 @@
 		5E86E1DF2391E4AC0031DBF3 /* TrackThoughtfulTweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1DE2391E4AC0031DBF3 /* TrackThoughtfulTweetsUITests.swift */; };
 		5E86E1ED2392063A0031DBF3 /* TwitterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1EC2392063A0031DBF3 /* TwitterData.swift */; };
 		5E86E1EF2394A53A0031DBF3 /* TwitterDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */; };
-		5E86E1F12394AC4C0031DBF3 /* FeedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1F02394AC4C0031DBF3 /* FeedDataSource.swift */; };
 		5E86E1F32394B4140031DBF3 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		5E86E1E02391E4AC0031DBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E86E1EC2392063A0031DBF3 /* TwitterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterData.swift; sourceTree = "<group>"; };
 		5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterDataLoader.swift; sourceTree = "<group>"; };
-		5E86E1F02394AC4C0031DBF3 /* FeedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataSource.swift; sourceTree = "<group>"; };
 		5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +115,6 @@
 				5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */,
 				5E86E1CA2391E4AB0031DBF3 /* Info.plist */,
 				5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */,
-				5E86E1F02394AC4C0031DBF3 /* FeedDataSource.swift */,
 			);
 			path = TrackThoughtfulTweets;
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 				5E86E1EF2394A53A0031DBF3 /* TwitterDataLoader.swift in Sources */,
 				5E86E1C12391E4A90031DBF3 /* FeedViewController.swift in Sources */,
 				5E86E1F32394B4140031DBF3 /* FeedTableViewCell.swift in Sources */,
-				5E86E1F12394AC4C0031DBF3 /* FeedDataSource.swift in Sources */,
 				5E86E1ED2392063A0031DBF3 /* TwitterData.swift in Sources */,
 				5E86E1BD2391E4A90031DBF3 /* AppDelegate.swift in Sources */,
 				5E86E1BF2391E4A90031DBF3 /* SceneDelegate.swift in Sources */,

@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import Social
 
 class FeedViewController: UIViewController, UITableViewDelegate {
 
+    // Mark - Outlets
     @IBOutlet weak var lblName: UILabel!
     
     @IBOutlet weak var lblDescription: UILabel!
@@ -18,10 +20,11 @@ class FeedViewController: UIViewController, UITableViewDelegate {
     
     @IBOutlet weak var tvPosts: UITableView!
     
+    /// MARK - parameters
     var user : User?
-    //let dataSource: UITableViewDataSource = FeedDataSource()
     var tweets = [Tweet]()
 
+    /// MARK - View Did Load
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -51,7 +54,9 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         
         let loader = TwitterDataLoader()
         
-        loader.loadMostRecentTweets(numberOfTweets: 10) { (data) in
+        let loadAmount = tweets.count + 10
+        
+        loader.loadMostRecentTweets(numberOfTweets: loadAmount) { (data) in
             
             self.parseFeedData(data: data)
         }
@@ -100,26 +105,75 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         // background the loading / parsing elements
         DispatchQueue.global(qos: .background).async {
 
-        do {
+            do {
 
-            // create decoder
-            let jsonDecoder = JSONDecoder()
+                // create decoder
+                let jsonDecoder = JSONDecoder()
 
-            // decode json into structs
-            self.tweets = try jsonDecoder.decode([Tweet].self, from: data)
+                // decode json into structs
+                let temp = try jsonDecoder.decode([Tweet].self, from: data)
 
-           } catch {
-               print ("Error Parsing JSON: \(error.localizedDescription)")
-           }
-
-           DispatchQueue.main.async {
+                if self.tweets.count == 0 {
+                    self.tweets = temp
+                } else {
+                    for index in self.tweets.count..<temp.count {
+                        self.tweets.append(temp[index])
+                    }
+                }
                 
-               self.tvPosts.reloadData()
-           }
+                assert(self.tweets.count == temp.count, "tweets.count: \(self.tweets.count) should equal temp.count: \(temp.count)")
+                
+            } catch {
+                print ("Error Parsing JSON: \(error.localizedDescription)")
+            }
+
+            DispatchQueue.main.async {
+                
+                self.tvPosts.reloadData()
+            }
        }
 
 
-   }
+    }
+    
+    /// Code from youtube video:  https://www.youtube.com/watch?v=edENrmrAOB4
+    
+    @IBAction func btnActionPost(_ sender: Any) {
+        
+        if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
+            
+            guard let tweetController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+                else { return }
+            
+            tweetController.setInitialText("Your tweet goes here...")
+            self.present(tweetController, animated: true, completion: nil)
+            
+        } else {
+            
+            let alert = UIAlertController(title: "Accounts",
+                                          message: "Please login to your twitter.",
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            alert.addAction(UIAlertAction(title: "Settings", style: .default, handler: {
+                (alertAction) in
+                
+                let settingsURL = URL(string: UIApplication.openSettingsURLString)
+                
+                if let url = settingsURL {
+                    UIApplication.shared.openURL(url)
+                }
+                
+            }))
+            
+            self.present(alert, animated: true, completion: nil)
+
+            
+        }
+        
+        
+        
+        
+    }
 }
 
 extension FeedViewController : UITableViewDataSource {
@@ -131,6 +185,12 @@ extension FeedViewController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        // get me X more rows
+        if indexPath.row == (tweets.count - 1) {
+            print ("Getting more rows")
+            loadFeedData()
+        }
+        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath) as? FeedTableViewCell else { return UITableViewCell() }
         
         cell.lblText.text = tweets[indexPath.row].text
@@ -138,5 +198,8 @@ extension FeedViewController : UITableViewDataSource {
         
         return cell
     }
+     
+    
 }
+
 
