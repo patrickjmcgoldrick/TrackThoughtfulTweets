@@ -33,3 +33,15 @@ struct Tweet: Codable {
     
     var text: String
 }
+
+struct LastFMData: Codable {
+    var tracks: [Track]?
+}
+
+struct Track: Codable {
+    var track : [Song]?
+}
+
+struct Song: Codable {
+    var name: String?
+}

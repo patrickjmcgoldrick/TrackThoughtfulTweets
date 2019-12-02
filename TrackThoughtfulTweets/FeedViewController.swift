@@ -64,7 +64,7 @@ class FeedViewController: UIViewController, UITableViewDelegate {
   
     private func parseData(data: Data) {
                 
-        print (String(bytes: data, encoding: .utf8)!)
+        //print (String(bytes: data, encoding: .utf8)!)
 
         // background the loading / parsing elements
         DispatchQueue.global(qos: .background).async {
@@ -91,9 +91,7 @@ class FeedViewController: UIViewController, UITableViewDelegate {
                 self.lblDescription.text = user.description
                 
                 self.loadImageInto(imageView: self.ivProfile, urlString: user.profile_image_url)
-                
-                print (user.profile_image_url)
-                
+                                
                 self.tvPosts.reloadData()
             }
         }
@@ -104,7 +102,7 @@ class FeedViewController: UIViewController, UITableViewDelegate {
     private func parseFeedData(data: Data) {
              
         if tweets.count == 0 {
-            print (String(bytes: data, encoding: .utf8)!)
+            //print (String(bytes: data, encoding: .utf8)!)
         }
         
         
@@ -142,10 +140,55 @@ class FeedViewController: UIViewController, UITableViewDelegate {
 
     }
     
+    private func parseLastFMData(data: Data) {
+               
+        print (String(bytes: data, encoding: .utf8)!)
+
+        // background the loading / parsing elements
+        DispatchQueue.global(qos: .background).async {
+
+            do {
+
+                // create decoder
+                let jsonDecoder = JSONDecoder()
+
+                // decode json into structs
+                let tracks = try jsonDecoder.decode(LastFMData.self, from: data)
+
+                print ("TRACKS: \(tracks)") //.tracks[0].songs[0].name)")
+
+            } catch {
+                print ("Error Parsing JSON: \(error.localizedDescription)")
+            }
+/*
+           DispatchQueue.main.async {
+               guard let user = self.user
+                   else { return }
+               self.lblName.text = user.name
+               self.lblDescription.text = user.description
+               
+               self.loadImageInto(imageView: self.ivProfile, urlString: user.profile_image_url)
+                               
+               self.tvPosts.reloadData()
+           }
+ */
+       }
+
+
+    }
+
     /// Code from youtube video:  https://www.youtube.com/watch?v=edENrmrAOB4
     
     @IBAction func btnActionPost(_ sender: Any) {
         
+        TwitterDataLoader().loadLastFMData { (data) in
+            
+            self.parseLastFMData(data: data)
+            
+            //print (String(bytes: data, encoding: .utf8)!)
+        }
+        
+        /*
         if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
             
             guard let tweetController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
@@ -178,8 +221,9 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         
         
         
-        
+*/
     }
+
 }
 
 extension FeedViewController : UITableViewDataSource {

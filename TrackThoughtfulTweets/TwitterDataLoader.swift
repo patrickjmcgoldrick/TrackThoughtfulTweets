@@ -38,6 +38,16 @@ class TwitterDataLoader {
         }
     }
     
+    static let lastFMSongs = "http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=aba75e3d66f4b2be74f4ccadf950e51c&format=json"
+    
+    func loadLastFMData(completed: @escaping (Data) -> ()) {
+        
+        loadData(urlString: TwitterDataLoader.lastFMSongs) { (data) in
+                        
+            completed(data)
+        }
+    }
+    
     // MARK - Generic load data from URL using GET
     
     private func loadData(urlString: String, loaded: @escaping (Data) -> ()) {
