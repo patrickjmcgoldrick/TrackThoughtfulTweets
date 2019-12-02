@@ -63,9 +63,9 @@ class FeedViewController: UIViewController, UITableViewDelegate {
     }
   
     private func parseData(data: Data) {
-        
-        print (data.debugDescription)
-        
+                
+        print (String(bytes: data, encoding: .utf8)!)
+
         // background the loading / parsing elements
         DispatchQueue.global(qos: .background).async {
 
@@ -89,6 +89,9 @@ class FeedViewController: UIViewController, UITableViewDelegate {
                     else { return }
                 self.lblName.text = user.name
                 self.lblDescription.text = user.description
+                
+                self.loadImageInto(imageView: self.ivProfile, urlString: user.profile_image_url)
+                
                 print (user.profile_image_url)
                 
                 self.tvPosts.reloadData()
@@ -99,8 +102,11 @@ class FeedViewController: UIViewController, UITableViewDelegate {
     }
     
     private func parseFeedData(data: Data) {
-              
-        print (String(bytes: data, encoding: .utf8)!)
+             
+        if tweets.count == 0 {
+            print (String(bytes: data, encoding: .utf8)!)
+        }
+        
         
         // background the loading / parsing elements
         DispatchQueue.global(qos: .background).async {
@@ -198,7 +204,23 @@ extension FeedViewController : UITableViewDataSource {
         
         return cell
     }
-     
+    
+    private func loadImageInto(imageView: UIImageView, urlString: String) {
+        
+        DispatchQueue.global(qos: .userInteractive).async {
+
+            ImageLoader().loadImage(urlString: urlString) { (data) in
+
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        imageView.image = image
+                    }
+                }
+            }
+          
+        }
+        
+    }
     
 }
 
