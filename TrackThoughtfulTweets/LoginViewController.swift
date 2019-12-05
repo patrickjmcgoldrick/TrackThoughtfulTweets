@@ -20,8 +20,8 @@ class LoginViewController: UIViewController, SFSafariViewControllerDelegate {
         
         var swifter = Swifter(consumerKey: "OsO1g0A09zaoPbffwd7zAIoE7", consumerSecret: "4bon6Kr4Ip5stbcZAgRkw69jD57zuzp90SE9n9V6GsNwVCd40i")
         
-        guard let url = URL(string: "https://zappycode.com/") else { return }
-        //let url = URL(string: "TrackThoughtfulTweets://Twitter")!
+        //guard let url = URL(string: "https://zappycode.com/") else { return }
+        let url = URL(string: "mcgoldrick://success")!
         
         testAuhorize1(swifter: swifter, url: url)
         
@@ -32,22 +32,30 @@ class LoginViewController: UIViewController, SFSafariViewControllerDelegate {
 
     func testAuhorize1(swifter: Swifter, url: URL) {
     
+        swifter.authorize(with: url, presentFrom: self, success: { (token, response) in
+            print ("SuCCESS!")
+            print (token.debugDescription)
+        }, failure: { error in
+            print ("failure: \(error.localizedDescription)")
+        })
+        
+        /*
         swifter.authorize(withCallback: url, presentingFrom: self, success: { _, _ in
             self.fetchTwitterHomeStream(swifter: swifter)
         }, failure:  { error in
             print ("Error: \(error.localizedDescription)")
         })
-        
+        */
     }
 
     func testAuthorize2(swifter: Swifter, url: URL) {
-        
+        /*
         swifter.authorize(withCallback: url, presentingFrom: self, forceLogin: false, safariDelegate: self, success: { (token, response) in
             print ("Success!, We got here.")
         }) { (error) in
             print ("Error: \(error.localizedDescription)")
         }
-
+*/
     }
     func testACA(swifter: Swifter) {
         let store = ACAccountStore()

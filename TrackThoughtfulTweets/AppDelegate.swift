@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 
         //let callbackUrl = URL(string: "TrackThoughtfulTweets://")!
-        let callbackUrl = URL(string: "swifter://")!
+        let callbackUrl = URL(string: "mcgoldrick://")!
 
         print ("Open URL: \(url)")
         Swifter.handleOpenURL(callbackUrl) //, callbackURL: callbackUrl)

@@ -9,7 +9,7 @@ target 'TrackThoughtfulTweets' do
 #  pod 'Fabric'
 #  pod 'TwitterKit', '<2.7.0' # probably 3.2.2
 #  pod 'TwitterCore', '<2.7.0' # probably 3.0.3
-  pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git', :tag => '2.3.0'
+  pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git', :tag => '2.1.0'
 
   target 'TrackThoughtfulTweetsTests' do
     inherit! :search_paths

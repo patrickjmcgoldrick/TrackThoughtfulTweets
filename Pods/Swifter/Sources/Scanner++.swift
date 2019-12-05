@@ -12,20 +12,12 @@ import Foundation
 /// swift-corelibs-foundation. These are exactly the same API as in
 /// https://github.com/apple/swift-corelibs-foundation/blob/master/Foundation/NSScanner.swift
 extension Scanner {
-    #if os(Linux)
-    func scanString(string: String) -> String? {
-        var buffer: String?
-        _ = scanString(string, into: &buffer)
-        return buffer
-    }
-    #elseif os(iOS) || os(macOS)
+    #if os(macOS) || os(iOS)
     func scanString(string: String) -> String? {
         var buffer: NSString?
-        _ = scanString(string, into: &buffer)
+        scanString(string, into: &buffer)
         return buffer as String?
     }
-    #endif
-    #if os(iOS) || os(macOS)
     func scanUpToString(_ string: String) -> String? {
         var buffer: NSString?
         scanUpTo(string, into: &buffer)
