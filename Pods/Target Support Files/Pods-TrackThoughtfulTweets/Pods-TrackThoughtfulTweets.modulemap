@@ -1,0 +1,6 @@
+framework module Pods_TrackThoughtfulTweets {
+  umbrella header "Pods-TrackThoughtfulTweets-umbrella.h"
+
+  export *
+  module * { export * }
+}

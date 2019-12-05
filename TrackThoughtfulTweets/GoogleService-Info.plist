@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>807725085993-egin2s5lhusi3et96s4gauqlcc97e1ev.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.807725085993-egin2s5lhusi3et96s4gauqlcc97e1ev</string>
+	<key>API_KEY</key>
+	<string>AIzaSyClSHPQeOF9w2Leoz5A-HwBpQ1GJpwcwYA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>807725085993</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mcgoldricksolutions.TrackThoughtfulTweets</string>
+	<key>PROJECT_ID</key>
+	<string>trackthoughtfultweets</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trackthoughtfultweets.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:807725085993:ios:72b4d0f043a331540e3338</string>
+	<key>DATABASE_URL</key>
+	<string>https://trackthoughtfultweets.firebaseio.com</string>
+</dict>
+</plist>

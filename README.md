@@ -8,3 +8,4 @@
 * Upload Image / ask for permission
 * Swiftlint
 * UX / UI
+* Placeholder Image
