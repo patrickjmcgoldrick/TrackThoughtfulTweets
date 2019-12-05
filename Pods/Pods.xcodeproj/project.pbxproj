@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004A151FAE48EE50535E168B0AD6C775 /* Int++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B2E720B15D67C61BB16D1E2F89B04 /* Int++.swift */; };
-		05599DB89F9D84F0F8A2CE9DCF7FDDCD /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BF3C58CDC3496FA0C828ADBF4ABAE9 /* SwifterCredential.swift */; };
+		006542C7EFFEF98710EE862FB0420C2A /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F8B3E3B42C06A721D24F6653F36CD /* SwifterSavedSearches.swift */; };
 		0A17CCD75EC72614D7197779083AF72B /* Pods-TrackThoughtfulTweets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F279ED5D327A3565A509E629DD23B6 /* Pods-TrackThoughtfulTweets-dummy.m */; };
-		0EF8932AE1E011C1A4564F4105C94242 /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C43153B1FF132ADCAA7D516E22FE2 /* SwifterPlaces.swift */; };
-		0F82CF0EE13E066FE1E34123F7ED3820 /* Dictionary++.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F1459054437B18A8CF9E6F708901B /* Dictionary++.swift */; };
-		130909E48E344ADACD7595F4C9CD238A /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788EA319A82677995DD0F1A8C0DCB6A0 /* SwifterFollowers.swift */; };
-		17832AAC0CA39C8EBAF6DCAA89CEAEB5 /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741543EA2766BDEF19F61EA3B51F58CE /* Operator++.swift */; };
-		1A38C600DE297BCF694DBFD2CEC6C1D4 /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42718AE71FBDEFADD1CC9E0EF21697 /* SwifterTrends.swift */; };
-		1CDD03DA7CC151BE5ABD812F4010BD8C /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8754559885682F88B8717AC8B86644A /* SwifterHelp.swift */; };
-		1EE3D9045FF06C30D699A71566A8916D /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B8B9DA1CE5915170AA2C664C072B3 /* SwifterAppOnlyClient.swift */; };
-		2509D7F9A0CBD2F949FDB07989C30B31 /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068E765AC9F880980888F4F90AD7461 /* SwifterSavedSearches.swift */; };
-		255DD5676CD2814CF5368DD683393CC2 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CD686D33E850878F9AF1342591D8E /* SwifterSuggested.swift */; };
-		2BC1BF27E2E41CE3AD699EAC28186218 /* Data++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AA7920C0DE0FA555BE9A0AA3A6D87 /* Data++.swift */; };
-		2F469536768C1516CABC9AC06B2C8C7F /* Scanner++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC8358063901A80D800766034C5564 /* Scanner++.swift */; };
-		35652601420678768AACCCA4E0082A00 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC302DDD4EC10C9389FAE5A59B28BA5 /* SHA1.swift */; };
-		37EE807E93A4262499EBA2A3F5C5B545 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84DA5EAE4E121172B6523897A83DBBD /* SwifterSpam.swift */; };
-		3C40E8EE3AC4CA3CFF0FEDD41291C5AD /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B4C209F9D0CDBA8C6E283E230A938 /* SwifterMessages.swift */; };
-		3DF97205001982543583844365919E40 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058882916C486AA705BE2936680BF8DB /* String++.swift */; };
-		405C22EE158328708A8C287E2BD6361B /* SwifterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02404CB6ABCEC0F00F63B137CF9D5FFB /* SwifterError.swift */; };
-		444A73338C612A40F1B3B91D5A2CEACB /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6C92E207EFC904A20063F361F96F7F /* SwifterAccountsClient.swift */; };
+		0FBAF8ABEC7807D9924A78BFB55382E9 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1B1BFA500EA3BA9671ADABB5A9727 /* SwifterLists.swift */; };
+		16C606D7125593213A783F0AE328330B /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE1CC4DBD8E85A365AF3803329880E /* Operator++.swift */; };
+		1A2DE700EA623A0EC531294D4273A4AE /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6ED8B7394081E5BAB21EA5345A898 /* SwifterPlaces.swift */; };
+		20E66BCC43EBFB8D0AAB99B8534F9DCE /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234AFC8FB3FE33C5CFA1EA9F6FDE8029 /* SwifterTrends.swift */; };
+		212BD8297E1B4BC5510A4187B22AFA3D /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DCAD5CF919E0BE827192233035F30 /* SwifterUsers.swift */; };
+		2373B98879FE453A34E1AAF067F5EF57 /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D8ABCCDF1CDFDF131147623BD6947 /* SwifterCredential.swift */; };
+		2E76E79857A3310A51AA680562FDD280 /* Dictionary++.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF15A2D8A368B06F78F52336B3053D9 /* Dictionary++.swift */; };
+		2E98783495625562670BF06F6A63F453 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18C7FB1976F6C89A1FFD927B775E2F /* SwifterSpam.swift */; };
+		311B5E9601335CAF0AE7A068E76F742C /* Int++.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23D2C97F95A9463C9EC661A2735457 /* Int++.swift */; };
+		386B356F52A1F62AD4FA35C2D7F889BB /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00D9D498EDC1567085BF92909A75B4 /* SwifterAppOnlyClient.swift */; };
+		397F932D5C982049021AA068D5EB9831 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B5100D9D6309D602F0855BC754B9DC /* SwifterHelp.swift */; };
+		406F61EC1C2CEF1E44DF33BAC52DCF8E /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2564D9A8190D448F93E8128E3CF9C /* SwifterTweets.swift */; };
 		488DAD46F0763046A075CE121346B8F3 /* Pods-TrackThoughtfulTweetsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9BA165A9ACA4015A9C171DEE1362 /* Pods-TrackThoughtfulTweetsTests-dummy.m */; };
-		506174992E16303B4C306C82EA8BC398 /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43745214BAC7A9CC7E95941ADC2CE63D /* SwifterUsers.swift */; };
 		52CDC09BDCFB5CE4ABCE8463DE027C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5B19286AE163ACAB7A7D67079F06A9C6 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95EBD0DA8B19B77C392B81C05EC187D /* SwifterFavorites.swift */; };
-		5E8633DA98898D5819BA086A7710D469 /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A74BBCFC7F571E892C4F32FE2864F89 /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5707958BEE060EE091359E0DE62C8D43 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1BACE0036B0C9FB51D241DEFAB38B /* SwifterHTTPRequest.swift */; };
+		5E8633DA98898D5819BA086A7710D469 /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C63E72FFA701B3129C97D76ECCB0CDF /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628B17AEEF0B8B108B56A7926B2E7955 /* SwifterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B181B6CCE775A87DAFDAC36ECCE28324 /* SwifterError.swift */; };
 		6355462BF82DB5447F0B4A126ED8F582 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DAE3825DF167B2DFCA9647FF679E29 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-dummy.m */; };
-		68B26E47A365BFEFBEDBF96298A8D44A /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF1CB5535A189405F8C361AF0006854 /* SwifterSearch.swift */; };
-		6E94388BBB53507A3E44BB6358179AA8 /* URL++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A8991B414848D599903CD0DAC230C /* URL++.swift */; };
-		80E5AE99B327CD473FEC00443A5DFE42 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F163785D33AB23EC0CD4F7F69C69D /* SwifterClientProtocol.swift */; };
-		9C74D7D16886D40A3F041019C436491D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE53FDCCC32BDD64B588350BB94BB /* Utils.swift */; };
-		9F0D6D2182D697579D8033B40B3524CB /* SwifterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B013CDAA5AF5DACAB7202449C301B /* SwifterTag.swift */; };
-		A3660664881757CAD0575B718B8FDB46 /* SwifterStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93638A11DB5EEF596D7DAA776E7264A6 /* SwifterStreaming.swift */; };
-		AEDDB7CC38A46B05FACCD03917C07E69 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0AAD5BD1518A67DE207A3E611E551 /* Swifter.swift */; };
-		B069A377F525BFF784EB92440E5F6E45 /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EE1ABAF12819B4DD076B90CD5E4A3A /* SwifterTweets.swift */; };
+		659281BA46B55CEB6DB57676E8283CF1 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66BC4A31249D907C9D27462CD863038 /* JSON.swift */; };
+		742795A0FE50E8E60B7159E59FFEB2DB /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B498F4E03E238C9F98B72395CD5EA /* SwifterMessages.swift */; };
+		84A9B5EBA811ABCCE5FE52C02420A27F /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B718D6620C37454EDF76F8F6C6C159 /* SwifterSearch.swift */; };
+		84F4B2A3BECAA0540441F5BDA55435E3 /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6CD466D79CA16FEB8174C2CD1DBB2F /* Swifter-dummy.m */; };
+		8D81BAA178AD531226AA018AA00B1F75 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF7C68DBFADDC2C94DBABF6567724C /* SwifterOAuthClient.swift */; };
+		91B4F62A484E6CFF12D52A70CC330FB8 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B11B666F75140CEF1595DF7FC4230 /* HMAC.swift */; };
+		92B0A3E6243D92594FBB3E5199BA6681 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC3CF319C65A05CFCA35916C814FFE /* SwifterAuth.swift */; };
+		9C7D49D05AB594A82EC05E98DDBC0B55 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66418F118A1566D871676CA79ABB1330 /* Utils.swift */; };
+		A1FE8F52D9549224E6669F320001EB5B /* URL++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5348D7027E3485E9D9DC3ACC92E88 /* URL++.swift */; };
+		A4C27E33CFA7020DCF2A7D2927AD3395 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3494F154D6400FD5B134D6145715F18 /* String++.swift */; };
+		AC877BF59A50DAA312FAF5525FC18FE3 /* Scanner++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B60276C27B0A2517BDF09264C02B77 /* Scanner++.swift */; };
+		B3A678F3C716F072C5931E900205CE5F /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF030CBD2CAB575668DD6BFBD2EBD7 /* SHA1.swift */; };
 		B4081B2E499593FCB5F38A6DDE5C450E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B46E73B6CD9AA0D0AF7986B145AA0AA0 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE317B0EDDDC51F39B6314C4510DC9B /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4BD0FCDD60EC575404D1B35845DFB06 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FAE852E19AF6ED176CA0280744E93 /* JSON.swift */; };
-		B4C209E9247C21199D235FE0B71DDDD6 /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F561D16DD7853787132A6F112BAFCA83 /* Swifter-dummy.m */; };
-		B89A57CE71B43F4DFB33464E4D1BFF99 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43CF6C1A82619A5447116960765432 /* SwifterAuth.swift */; };
-		B9A7ABF6F373BCA64D1DCD19E94E44C3 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E0906FAC60279B14AE726298AD3D92 /* SwifterOAuthClient.swift */; };
-		BAFC06B1152AD16E8D0323DE59B0D929 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8AE206FC64BDB65EBE6483FBE7ACA /* SwifterLists.swift */; };
 		BEC892AF947318562F4A014FA5135FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C113459B8D4C86D0D65F0BB2EF941ED2 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6E8B51FAA5E67C3C27E20C6055FAD /* SwifterFavorites.swift */; };
 		C6295DB7B9AC5231F7146B19014FCDC3 /* Pods-TrackThoughtfulTweets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CE3B409D9AEBCB8725991CE47C7BBF /* Pods-TrackThoughtfulTweets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6A25790AE8D7A5E1B56067D9154BF4D /* Pods-TrackThoughtfulTweetsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CEE2671C6931066915394D9C96D59E /* Pods-TrackThoughtfulTweetsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEAB4F158824E3946B7DB54C28E8A634 /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822C86E2C120A196725EC5BE3C649A9 /* SwifterTimelines.swift */; };
-		F40316230E12ABBD98093100636E7D13 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3F3219DC0357670B31063D7AFC27F /* SwifterHTTPRequest.swift */; };
-		F719412956AF4467683BDBE72A2966D4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B01F4CF9CDFD91912E1322768541C /* HMAC.swift */; };
+		C7F9CBAC45A0E5477AEE342800E2A8C5 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447C97C7206331FCE67650F127B7060C /* SwifterSuggested.swift */; };
+		D4B84237CC1198804953038631E69836 /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71279C18E6304E89B200978B43CED563 /* SwifterAccountsClient.swift */; };
+		D8C70D58BAC6549A79BAA3D66DCF9408 /* Data++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BC0B725DCB8292AE4E8ECE510ACB17 /* Data++.swift */; };
+		DEF507E5245F088F447D89F65A55A67E /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D07DC715B9177C9837CA35056E78F /* SwifterFollowers.swift */; };
+		E000B6C327A7C12E2DB13B460A0F1668 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91572837D52871ABD9A2CF42DA57D6F /* SwifterClientProtocol.swift */; };
+		E0E542E3417576BD4A0C30D23EF1379C /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD1E681663D21E8AD9A35F178EDCC6 /* SwifterTimelines.swift */; };
+		E2F3314E684722F630ECADABA0165EF8 /* SwifterGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B939A495D9687F6135019459E0054 /* SwifterGIF.swift */; };
+		E6B294B7F7BF249619F6FAC27E801DB4 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799D8DD73319618F82B3322F9A4F7FB /* Swifter.swift */; };
+		EE81964191F6BA82B087189545B8AE61 /* SwifterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AAF0AEDC6806754FAFA05B8F3A6DF /* SwifterTag.swift */; };
 		FCDFD776D778875CE850C61DEA27F50D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,80 +82,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007B8B9DA1CE5915170AA2C664C072B3 /* SwifterAppOnlyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAppOnlyClient.swift; path = Sources/SwifterAppOnlyClient.swift; sourceTree = "<group>"; };
-		00A6414573DD927A185D9BA16C78D803 /* Swifter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swifter-Info.plist"; sourceTree = "<group>"; };
-		02404CB6ABCEC0F00F63B137CF9D5FFB /* SwifterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterError.swift; path = Sources/SwifterError.swift; sourceTree = "<group>"; };
-		058882916C486AA705BE2936680BF8DB /* String++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String++.swift"; path = "Sources/String++.swift"; sourceTree = "<group>"; };
-		06C3F3219DC0357670B31063D7AFC27F /* SwifterHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterHTTPRequest.swift; path = Sources/SwifterHTTPRequest.swift; sourceTree = "<group>"; };
+		01BC0B725DCB8292AE4E8ECE510ACB17 /* Data++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data++.swift"; path = "Sources/Data++.swift"; sourceTree = "<group>"; };
+		01F1B1BFA500EA3BA9671ADABB5A9727 /* SwifterLists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterLists.swift; path = Sources/SwifterLists.swift; sourceTree = "<group>"; };
+		053F8B3E3B42C06A721D24F6653F36CD /* SwifterSavedSearches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSavedSearches.swift; path = Sources/SwifterSavedSearches.swift; sourceTree = "<group>"; };
 		0827FAE5489F4DBE6C5CA4B1967D3AA8 /* Pods-TrackThoughtfulTweets-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackThoughtfulTweets-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B738E00D92BB17EB8E5F6E3E92F4FD5 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		0BA8AE206FC64BDB65EBE6483FBE7ACA /* SwifterLists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterLists.swift; path = Sources/SwifterLists.swift; sourceTree = "<group>"; };
-		0DC302DDD4EC10C9389FAE5A59B28BA5 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
+		0D1DCAD5CF919E0BE827192233035F30 /* SwifterUsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterUsers.swift; path = Sources/SwifterUsers.swift; sourceTree = "<group>"; };
+		0FBF348A4594AB5D003114C02DAEA3DD /* Swifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifter.modulemap; sourceTree = "<group>"; };
 		1399CED3EB8009510E40C771CA4C5A30 /* Pods-TrackThoughtfulTweets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackThoughtfulTweets-Info.plist"; sourceTree = "<group>"; };
+		14B60276C27B0A2517BDF09264C02B77 /* Scanner++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Scanner++.swift"; path = "Sources/Scanner++.swift"; sourceTree = "<group>"; };
 		1B15BC40B557E799A28F027265D6721B /* Pods_TrackThoughtfulTweets_TrackThoughtfulTweetsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrackThoughtfulTweets_TrackThoughtfulTweetsUITests.framework; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C63E72FFA701B3129C97D76ECCB0CDF /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
 		1CBD9148102C429B31639E216CB059BF /* Pods-TrackThoughtfulTweets-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackThoughtfulTweets-acknowledgements.markdown"; sourceTree = "<group>"; };
-		203F163785D33AB23EC0CD4F7F69C69D /* SwifterClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterClientProtocol.swift; path = Sources/SwifterClientProtocol.swift; sourceTree = "<group>"; };
 		21052E15A08D8C76EF678A5D05832518 /* Pods-TrackThoughtfulTweets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackThoughtfulTweets.debug.xcconfig"; sourceTree = "<group>"; };
 		2284F315FE0B88AD16BB2261CC7AEDC9 /* Pods-TrackThoughtfulTweetsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackThoughtfulTweetsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22D2564D9A8190D448F93E8128E3CF9C /* SwifterTweets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTweets.swift; path = Sources/SwifterTweets.swift; sourceTree = "<group>"; };
+		234AFC8FB3FE33C5CFA1EA9F6FDE8029 /* SwifterTrends.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTrends.swift; path = Sources/SwifterTrends.swift; sourceTree = "<group>"; };
+		2AD6384DB6B7394718EE14E8695B1A84 /* Swifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-prefix.pch"; sourceTree = "<group>"; };
+		2E71DA21E02E527C3C031E26C1D6897C /* Swifter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swifter-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32B8FE4064D82E9A333B40E25275564F /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		39EE1ABAF12819B4DD076B90CD5E4A3A /* SwifterTweets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTweets.swift; path = Sources/SwifterTweets.swift; sourceTree = "<group>"; };
+		3799D8DD73319618F82B3322F9A4F7FB /* Swifter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swifter.swift; path = Sources/Swifter.swift; sourceTree = "<group>"; };
 		3BAFFC1D3D0003AD0B5D4970988F1ADA /* Pods-TrackThoughtfulTweetsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackThoughtfulTweetsTests.modulemap"; sourceTree = "<group>"; };
-		3D1A8991B414848D599903CD0DAC230C /* URL++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL++.swift"; path = "Sources/URL++.swift"; sourceTree = "<group>"; };
-		402AA7920C0DE0FA555BE9A0AA3A6D87 /* Data++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data++.swift"; path = "Sources/Data++.swift"; sourceTree = "<group>"; };
-		43745214BAC7A9CC7E95941ADC2CE63D /* SwifterUsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterUsers.swift; path = Sources/SwifterUsers.swift; sourceTree = "<group>"; };
+		447C97C7206331FCE67650F127B7060C /* SwifterSuggested.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSuggested.swift; path = Sources/SwifterSuggested.swift; sourceTree = "<group>"; };
 		475F3CA9FAF3B018F8502A03DBB51B3D /* Pods-TrackThoughtfulTweets-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrackThoughtfulTweets-frameworks.sh"; sourceTree = "<group>"; };
 		49A1BC21100B2A649C11CC510E6D0C3E /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D6C92E207EFC904A20063F361F96F7F /* SwifterAccountsClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAccountsClient.swift; path = Sources/SwifterAccountsClient.swift; sourceTree = "<group>"; };
+		49B718D6620C37454EDF76F8F6C6C159 /* SwifterSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSearch.swift; path = Sources/SwifterSearch.swift; sourceTree = "<group>"; };
+		4B00D9D498EDC1567085BF92909A75B4 /* SwifterAppOnlyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAppOnlyClient.swift; path = Sources/SwifterAppOnlyClient.swift; sourceTree = "<group>"; };
+		4CBE1CC4DBD8E85A365AF3803329880E /* Operator++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Operator++.swift"; path = "Sources/Operator++.swift"; sourceTree = "<group>"; };
 		4E1337B837994D0F57F1F47BF2BC4891 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-Info.plist"; sourceTree = "<group>"; };
-		51CD9AEE49958877D31E2EC0CF17E1CF /* Swifter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.xcconfig; sourceTree = "<group>"; };
-		589B4C209F9D0CDBA8C6E283E230A938 /* SwifterMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterMessages.swift; path = Sources/SwifterMessages.swift; sourceTree = "<group>"; };
+		4FF1BACE0036B0C9FB51D241DEFAB38B /* SwifterHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterHTTPRequest.swift; path = Sources/SwifterHTTPRequest.swift; sourceTree = "<group>"; };
+		515B939A495D9687F6135019459E0054 /* SwifterGIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterGIF.swift; path = Sources/SwifterGIF.swift; sourceTree = "<group>"; };
+		5D2CCFE0F6337D840A740120117EF3CD /* Swifter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.xcconfig; sourceTree = "<group>"; };
 		5E3CD87CBC92761593AF0EB81B77171D /* Pods-TrackThoughtfulTweetsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackThoughtfulTweetsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		66E0906FAC60279B14AE726298AD3D92 /* SwifterOAuthClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterOAuthClient.swift; path = Sources/SwifterOAuthClient.swift; sourceTree = "<group>"; };
+		5E5AAF0AEDC6806754FAFA05B8F3A6DF /* SwifterTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTag.swift; path = Sources/SwifterTag.swift; sourceTree = "<group>"; };
+		62D5348D7027E3485E9D9DC3ACC92E88 /* URL++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL++.swift"; path = "Sources/URL++.swift"; sourceTree = "<group>"; };
+		66418F118A1566D871676CA79ABB1330 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
 		689B382EEFF3F9164B1CBB377C24983E /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CF1CB5535A189405F8C361AF0006854 /* SwifterSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSearch.swift; path = Sources/SwifterSearch.swift; sourceTree = "<group>"; };
-		741543EA2766BDEF19F61EA3B51F58CE /* Operator++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Operator++.swift"; path = "Sources/Operator++.swift"; sourceTree = "<group>"; };
-		7822C86E2C120A196725EC5BE3C649A9 /* SwifterTimelines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTimelines.swift; path = Sources/SwifterTimelines.swift; sourceTree = "<group>"; };
-		788EA319A82677995DD0F1A8C0DCB6A0 /* SwifterFollowers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterFollowers.swift; path = Sources/SwifterFollowers.swift; sourceTree = "<group>"; };
-		7A74BBCFC7F571E892C4F32FE2864F89 /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
+		6E9B498F4E03E238C9F98B72395CD5EA /* SwifterMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterMessages.swift; path = Sources/SwifterMessages.swift; sourceTree = "<group>"; };
+		71279C18E6304E89B200978B43CED563 /* SwifterAccountsClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAccountsClient.swift; path = Sources/SwifterAccountsClient.swift; sourceTree = "<group>"; };
+		74F6ED8B7394081E5BAB21EA5345A898 /* SwifterPlaces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterPlaces.swift; path = Sources/SwifterPlaces.swift; sourceTree = "<group>"; };
+		7BFF030CBD2CAB575668DD6BFBD2EBD7 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
 		7CEFAF8377AB0FFFF3FF82389ED8F9C5 /* Pods-TrackThoughtfulTweetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackThoughtfulTweetsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7EEF6FF8E327CD4BC876716DF8CD2644 /* Pods-TrackThoughtfulTweetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackThoughtfulTweetsTests.release.xcconfig"; sourceTree = "<group>"; };
 		84521AC05481E1470DA6A0C39C96C73C /* Pods-TrackThoughtfulTweets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackThoughtfulTweets.modulemap"; sourceTree = "<group>"; };
 		87100D7A6FEBD55C7A3AFEC8B27C6E41 /* Pods-TrackThoughtfulTweetsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackThoughtfulTweetsTests-Info.plist"; sourceTree = "<group>"; };
-		8A0CD686D33E850878F9AF1342591D8E /* SwifterSuggested.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSuggested.swift; path = Sources/SwifterSuggested.swift; sourceTree = "<group>"; };
-		8A1FAE852E19AF6ED176CA0280744E93 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
-		8BD0AAD5BD1518A67DE207A3E611E551 /* Swifter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swifter.swift; path = Sources/Swifter.swift; sourceTree = "<group>"; };
-		93638A11DB5EEF596D7DAA776E7264A6 /* SwifterStreaming.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterStreaming.swift; path = Sources/SwifterStreaming.swift; sourceTree = "<group>"; };
 		97DAE3825DF167B2DFCA9647FF679E29 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DAC8358063901A80D800766034C5564 /* Scanner++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Scanner++.swift"; path = "Sources/Scanner++.swift"; sourceTree = "<group>"; };
-		9E580C1B6FCF72DBF10E1A7540C7F8BE /* Swifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifter.modulemap; sourceTree = "<group>"; };
 		9EE317B0EDDDC51F39B6314C4510DC9B /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-umbrella.h"; sourceTree = "<group>"; };
-		A16EE53FDCCC32BDD64B588350BB94BB /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
-		A84DA5EAE4E121172B6523897A83DBBD /* SwifterSpam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSpam.swift; path = Sources/SwifterSpam.swift; sourceTree = "<group>"; };
-		A91B013CDAA5AF5DACAB7202449C301B /* SwifterTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTag.swift; path = Sources/SwifterTag.swift; sourceTree = "<group>"; };
-		A95EBD0DA8B19B77C392B81C05EC187D /* SwifterFavorites.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterFavorites.swift; path = Sources/SwifterFavorites.swift; sourceTree = "<group>"; };
+		A30D07DC715B9177C9837CA35056E78F /* SwifterFollowers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterFollowers.swift; path = Sources/SwifterFollowers.swift; sourceTree = "<group>"; };
+		A64B11B666F75140CEF1595DF7FC4230 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
 		AA0A9BA165A9ACA4015A9C171DEE1362 /* Pods-TrackThoughtfulTweetsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackThoughtfulTweetsTests-dummy.m"; sourceTree = "<group>"; };
-		B31682F9ED2DFB94236726506F29BAF4 /* Swifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-prefix.pch"; sourceTree = "<group>"; };
-		BE9B2E720B15D67C61BB16D1E2F89B04 /* Int++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int++.swift"; path = "Sources/Int++.swift"; sourceTree = "<group>"; };
+		AAF15A2D8A368B06F78F52336B3053D9 /* Dictionary++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary++.swift"; path = "Sources/Dictionary++.swift"; sourceTree = "<group>"; };
+		AC18C7FB1976F6C89A1FFD927B775E2F /* SwifterSpam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSpam.swift; path = Sources/SwifterSpam.swift; sourceTree = "<group>"; };
+		B181B6CCE775A87DAFDAC36ECCE28324 /* SwifterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterError.swift; path = Sources/SwifterError.swift; sourceTree = "<group>"; };
+		B69D8ABCCDF1CDFDF131147623BD6947 /* SwifterCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterCredential.swift; path = Sources/SwifterCredential.swift; sourceTree = "<group>"; };
+		B6F6E8B51FAA5E67C3C27E20C6055FAD /* SwifterFavorites.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterFavorites.swift; path = Sources/SwifterFavorites.swift; sourceTree = "<group>"; };
+		BA6CD466D79CA16FEB8174C2CD1DBB2F /* Swifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swifter-dummy.m"; sourceTree = "<group>"; };
+		BBEF7C68DBFADDC2C94DBABF6567724C /* SwifterOAuthClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterOAuthClient.swift; path = Sources/SwifterOAuthClient.swift; sourceTree = "<group>"; };
 		C09A77097984192797705AC827FE1649 /* Pods_TrackThoughtfulTweets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrackThoughtfulTweets.framework; path = "Pods-TrackThoughtfulTweets.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C269C74DD8AE0EED3EC44817C75A93DE /* Pods_TrackThoughtfulTweetsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrackThoughtfulTweetsTests.framework; path = "Pods-TrackThoughtfulTweetsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3494F154D6400FD5B134D6145715F18 /* String++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String++.swift"; path = "Sources/String++.swift"; sourceTree = "<group>"; };
+		C4AC3CF319C65A05CFCA35916C814FFE /* SwifterAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAuth.swift; path = Sources/SwifterAuth.swift; sourceTree = "<group>"; };
+		C66BC4A31249D907C9D27462CD863038 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
 		C84AA71C5214E570F4375D0E96126465 /* Pods-TrackThoughtfulTweets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackThoughtfulTweets.release.xcconfig"; sourceTree = "<group>"; };
 		C882FAE28F085713AF9107EED405ABF3 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2BF3C58CDC3496FA0C828ADBF4ABAE9 /* SwifterCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterCredential.swift; path = Sources/SwifterCredential.swift; sourceTree = "<group>"; };
 		D5F279ED5D327A3565A509E629DD23B6 /* Pods-TrackThoughtfulTweets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackThoughtfulTweets-dummy.m"; sourceTree = "<group>"; };
-		DA42718AE71FBDEFADD1CC9E0EF21697 /* SwifterTrends.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTrends.swift; path = Sources/SwifterTrends.swift; sourceTree = "<group>"; };
-		DB9F1459054437B18A8CF9E6F708901B /* Dictionary++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary++.swift"; path = "Sources/Dictionary++.swift"; sourceTree = "<group>"; };
-		DF43CF6C1A82619A5447116960765432 /* SwifterAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAuth.swift; path = Sources/SwifterAuth.swift; sourceTree = "<group>"; };
+		DF23D2C97F95A9463C9EC661A2735457 /* Int++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int++.swift"; path = "Sources/Int++.swift"; sourceTree = "<group>"; };
 		E043453345AC1B3F67A1F993D39B3C91 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.modulemap"; sourceTree = "<group>"; };
+		E5B5100D9D6309D602F0855BC754B9DC /* SwifterHelp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterHelp.swift; path = Sources/SwifterHelp.swift; sourceTree = "<group>"; };
 		E7CE3B409D9AEBCB8725991CE47C7BBF /* Pods-TrackThoughtfulTweets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackThoughtfulTweets-umbrella.h"; sourceTree = "<group>"; };
 		E7E98885A0FEF49E9EE8975449969BEB /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swifter.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8754559885682F88B8717AC8B86644A /* SwifterHelp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterHelp.swift; path = Sources/SwifterHelp.swift; sourceTree = "<group>"; };
-		E90C43153B1FF132ADCAA7D516E22FE2 /* SwifterPlaces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterPlaces.swift; path = Sources/SwifterPlaces.swift; sourceTree = "<group>"; };
-		F068E765AC9F880980888F4F90AD7461 /* SwifterSavedSearches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSavedSearches.swift; path = Sources/SwifterSavedSearches.swift; sourceTree = "<group>"; };
-		F561D16DD7853787132A6F112BAFCA83 /* Swifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swifter-dummy.m"; sourceTree = "<group>"; };
+		E91572837D52871ABD9A2CF42DA57D6F /* SwifterClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterClientProtocol.swift; path = Sources/SwifterClientProtocol.swift; sourceTree = "<group>"; };
+		EDDD1E681663D21E8AD9A35F178EDCC6 /* SwifterTimelines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTimelines.swift; path = Sources/SwifterTimelines.swift; sourceTree = "<group>"; };
 		F6CEE2671C6931066915394D9C96D59E /* Pods-TrackThoughtfulTweetsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackThoughtfulTweetsTests-umbrella.h"; sourceTree = "<group>"; };
-		FB3B01F4CF9CDFD91912E1322768541C /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,20 +194,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01664288DAAF3EF13A37F9FD8A47AEAE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9E580C1B6FCF72DBF10E1A7540C7F8BE /* Swifter.modulemap */,
-				51CD9AEE49958877D31E2EC0CF17E1CF /* Swifter.xcconfig */,
-				F561D16DD7853787132A6F112BAFCA83 /* Swifter-dummy.m */,
-				00A6414573DD927A185D9BA16C78D803 /* Swifter-Info.plist */,
-				B31682F9ED2DFB94236726506F29BAF4 /* Swifter-prefix.pch */,
-				7A74BBCFC7F571E892C4F32FE2864F89 /* Swifter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Swifter";
-			sourceTree = "<group>";
-		};
 		1AEBDD342E72E238DB2E1C085D2A9F0D /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,57 +239,57 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B3A59C208C1799879F4917BFA6B8108 /* Swifter */ = {
-			isa = PBXGroup;
-			children = (
-				402AA7920C0DE0FA555BE9A0AA3A6D87 /* Data++.swift */,
-				DB9F1459054437B18A8CF9E6F708901B /* Dictionary++.swift */,
-				FB3B01F4CF9CDFD91912E1322768541C /* HMAC.swift */,
-				BE9B2E720B15D67C61BB16D1E2F89B04 /* Int++.swift */,
-				8A1FAE852E19AF6ED176CA0280744E93 /* JSON.swift */,
-				741543EA2766BDEF19F61EA3B51F58CE /* Operator++.swift */,
-				9DAC8358063901A80D800766034C5564 /* Scanner++.swift */,
-				0DC302DDD4EC10C9389FAE5A59B28BA5 /* SHA1.swift */,
-				058882916C486AA705BE2936680BF8DB /* String++.swift */,
-				8BD0AAD5BD1518A67DE207A3E611E551 /* Swifter.swift */,
-				4D6C92E207EFC904A20063F361F96F7F /* SwifterAccountsClient.swift */,
-				007B8B9DA1CE5915170AA2C664C072B3 /* SwifterAppOnlyClient.swift */,
-				DF43CF6C1A82619A5447116960765432 /* SwifterAuth.swift */,
-				203F163785D33AB23EC0CD4F7F69C69D /* SwifterClientProtocol.swift */,
-				D2BF3C58CDC3496FA0C828ADBF4ABAE9 /* SwifterCredential.swift */,
-				02404CB6ABCEC0F00F63B137CF9D5FFB /* SwifterError.swift */,
-				A95EBD0DA8B19B77C392B81C05EC187D /* SwifterFavorites.swift */,
-				788EA319A82677995DD0F1A8C0DCB6A0 /* SwifterFollowers.swift */,
-				E8754559885682F88B8717AC8B86644A /* SwifterHelp.swift */,
-				06C3F3219DC0357670B31063D7AFC27F /* SwifterHTTPRequest.swift */,
-				0BA8AE206FC64BDB65EBE6483FBE7ACA /* SwifterLists.swift */,
-				589B4C209F9D0CDBA8C6E283E230A938 /* SwifterMessages.swift */,
-				66E0906FAC60279B14AE726298AD3D92 /* SwifterOAuthClient.swift */,
-				E90C43153B1FF132ADCAA7D516E22FE2 /* SwifterPlaces.swift */,
-				F068E765AC9F880980888F4F90AD7461 /* SwifterSavedSearches.swift */,
-				6CF1CB5535A189405F8C361AF0006854 /* SwifterSearch.swift */,
-				A84DA5EAE4E121172B6523897A83DBBD /* SwifterSpam.swift */,
-				93638A11DB5EEF596D7DAA776E7264A6 /* SwifterStreaming.swift */,
-				8A0CD686D33E850878F9AF1342591D8E /* SwifterSuggested.swift */,
-				A91B013CDAA5AF5DACAB7202449C301B /* SwifterTag.swift */,
-				7822C86E2C120A196725EC5BE3C649A9 /* SwifterTimelines.swift */,
-				DA42718AE71FBDEFADD1CC9E0EF21697 /* SwifterTrends.swift */,
-				39EE1ABAF12819B4DD076B90CD5E4A3A /* SwifterTweets.swift */,
-				43745214BAC7A9CC7E95941ADC2CE63D /* SwifterUsers.swift */,
-				3D1A8991B414848D599903CD0DAC230C /* URL++.swift */,
-				A16EE53FDCCC32BDD64B588350BB94BB /* Utils.swift */,
-				01664288DAAF3EF13A37F9FD8A47AEAE /* Support Files */,
-			);
-			name = Swifter;
-			path = Swifter;
-			sourceTree = "<group>";
-		};
 		9D807A64D560D04DDCADD0459AFAD836 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B3A59C208C1799879F4917BFA6B8108 /* Swifter */,
+				A4675EFC2B0D725B39D46141A0C35C9E /* Swifter */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4675EFC2B0D725B39D46141A0C35C9E /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				01BC0B725DCB8292AE4E8ECE510ACB17 /* Data++.swift */,
+				AAF15A2D8A368B06F78F52336B3053D9 /* Dictionary++.swift */,
+				A64B11B666F75140CEF1595DF7FC4230 /* HMAC.swift */,
+				DF23D2C97F95A9463C9EC661A2735457 /* Int++.swift */,
+				C66BC4A31249D907C9D27462CD863038 /* JSON.swift */,
+				4CBE1CC4DBD8E85A365AF3803329880E /* Operator++.swift */,
+				14B60276C27B0A2517BDF09264C02B77 /* Scanner++.swift */,
+				7BFF030CBD2CAB575668DD6BFBD2EBD7 /* SHA1.swift */,
+				C3494F154D6400FD5B134D6145715F18 /* String++.swift */,
+				3799D8DD73319618F82B3322F9A4F7FB /* Swifter.swift */,
+				71279C18E6304E89B200978B43CED563 /* SwifterAccountsClient.swift */,
+				4B00D9D498EDC1567085BF92909A75B4 /* SwifterAppOnlyClient.swift */,
+				C4AC3CF319C65A05CFCA35916C814FFE /* SwifterAuth.swift */,
+				E91572837D52871ABD9A2CF42DA57D6F /* SwifterClientProtocol.swift */,
+				B69D8ABCCDF1CDFDF131147623BD6947 /* SwifterCredential.swift */,
+				B181B6CCE775A87DAFDAC36ECCE28324 /* SwifterError.swift */,
+				B6F6E8B51FAA5E67C3C27E20C6055FAD /* SwifterFavorites.swift */,
+				A30D07DC715B9177C9837CA35056E78F /* SwifterFollowers.swift */,
+				515B939A495D9687F6135019459E0054 /* SwifterGIF.swift */,
+				E5B5100D9D6309D602F0855BC754B9DC /* SwifterHelp.swift */,
+				4FF1BACE0036B0C9FB51D241DEFAB38B /* SwifterHTTPRequest.swift */,
+				01F1B1BFA500EA3BA9671ADABB5A9727 /* SwifterLists.swift */,
+				6E9B498F4E03E238C9F98B72395CD5EA /* SwifterMessages.swift */,
+				BBEF7C68DBFADDC2C94DBABF6567724C /* SwifterOAuthClient.swift */,
+				74F6ED8B7394081E5BAB21EA5345A898 /* SwifterPlaces.swift */,
+				053F8B3E3B42C06A721D24F6653F36CD /* SwifterSavedSearches.swift */,
+				49B718D6620C37454EDF76F8F6C6C159 /* SwifterSearch.swift */,
+				AC18C7FB1976F6C89A1FFD927B775E2F /* SwifterSpam.swift */,
+				447C97C7206331FCE67650F127B7060C /* SwifterSuggested.swift */,
+				5E5AAF0AEDC6806754FAFA05B8F3A6DF /* SwifterTag.swift */,
+				EDDD1E681663D21E8AD9A35F178EDCC6 /* SwifterTimelines.swift */,
+				234AFC8FB3FE33C5CFA1EA9F6FDE8029 /* SwifterTrends.swift */,
+				22D2564D9A8190D448F93E8128E3CF9C /* SwifterTweets.swift */,
+				0D1DCAD5CF919E0BE827192233035F30 /* SwifterUsers.swift */,
+				62D5348D7027E3485E9D9DC3ACC92E88 /* URL++.swift */,
+				66418F118A1566D871676CA79ABB1330 /* Utils.swift */,
+				F2D757D24356565EC77FA486B506498C /* Support Files */,
+			);
+			name = Swifter;
+			path = Swifter;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -357,6 +343,20 @@
 				DFDE85C8359A9EDCE59249042A083E4C /* Pods-TrackThoughtfulTweetsTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2D757D24356565EC77FA486B506498C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FBF348A4594AB5D003114C02DAEA3DD /* Swifter.modulemap */,
+				5D2CCFE0F6337D840A740120117EF3CD /* Swifter.xcconfig */,
+				BA6CD466D79CA16FEB8174C2CD1DBB2F /* Swifter-dummy.m */,
+				2E71DA21E02E527C3C031E26C1D6897C /* Swifter-Info.plist */,
+				2AD6384DB6B7394718EE14E8695B1A84 /* Swifter-prefix.pch */,
+				1C63E72FFA701B3129C97D76ECCB0CDF /* Swifter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swifter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,7 +440,7 @@
 			buildConfigurationList = B034C4E07A2C3A6CA032DD1D16577E6B /* Build configuration list for PBXNativeTarget "Swifter" */;
 			buildPhases = (
 				56B0E984292BAFB36082B8DB7D815368 /* Headers */,
-				18A8B3DC306F44F882320468AE4667F0 /* Sources */,
+				09FCBF2FE4EC420EC585BCB462A4FFA2 /* Sources */,
 				21128C7E49EF7BB6C688C465B31EA06E /* Frameworks */,
 				57776DC1D6D0C6A6E98E135EDB23C944 /* Resources */,
 			);
@@ -542,47 +542,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A8B3DC306F44F882320468AE4667F0 /* Sources */ = {
+		09FCBF2FE4EC420EC585BCB462A4FFA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC1BF27E2E41CE3AD699EAC28186218 /* Data++.swift in Sources */,
-				0F82CF0EE13E066FE1E34123F7ED3820 /* Dictionary++.swift in Sources */,
-				F719412956AF4467683BDBE72A2966D4 /* HMAC.swift in Sources */,
-				004A151FAE48EE50535E168B0AD6C775 /* Int++.swift in Sources */,
-				B4BD0FCDD60EC575404D1B35845DFB06 /* JSON.swift in Sources */,
-				17832AAC0CA39C8EBAF6DCAA89CEAEB5 /* Operator++.swift in Sources */,
-				2F469536768C1516CABC9AC06B2C8C7F /* Scanner++.swift in Sources */,
-				35652601420678768AACCCA4E0082A00 /* SHA1.swift in Sources */,
-				3DF97205001982543583844365919E40 /* String++.swift in Sources */,
-				B4C209E9247C21199D235FE0B71DDDD6 /* Swifter-dummy.m in Sources */,
-				AEDDB7CC38A46B05FACCD03917C07E69 /* Swifter.swift in Sources */,
-				444A73338C612A40F1B3B91D5A2CEACB /* SwifterAccountsClient.swift in Sources */,
-				1EE3D9045FF06C30D699A71566A8916D /* SwifterAppOnlyClient.swift in Sources */,
-				B89A57CE71B43F4DFB33464E4D1BFF99 /* SwifterAuth.swift in Sources */,
-				80E5AE99B327CD473FEC00443A5DFE42 /* SwifterClientProtocol.swift in Sources */,
-				05599DB89F9D84F0F8A2CE9DCF7FDDCD /* SwifterCredential.swift in Sources */,
-				405C22EE158328708A8C287E2BD6361B /* SwifterError.swift in Sources */,
-				5B19286AE163ACAB7A7D67079F06A9C6 /* SwifterFavorites.swift in Sources */,
-				130909E48E344ADACD7595F4C9CD238A /* SwifterFollowers.swift in Sources */,
-				1CDD03DA7CC151BE5ABD812F4010BD8C /* SwifterHelp.swift in Sources */,
-				F40316230E12ABBD98093100636E7D13 /* SwifterHTTPRequest.swift in Sources */,
-				BAFC06B1152AD16E8D0323DE59B0D929 /* SwifterLists.swift in Sources */,
-				3C40E8EE3AC4CA3CFF0FEDD41291C5AD /* SwifterMessages.swift in Sources */,
-				B9A7ABF6F373BCA64D1DCD19E94E44C3 /* SwifterOAuthClient.swift in Sources */,
-				0EF8932AE1E011C1A4564F4105C94242 /* SwifterPlaces.swift in Sources */,
-				2509D7F9A0CBD2F949FDB07989C30B31 /* SwifterSavedSearches.swift in Sources */,
-				68B26E47A365BFEFBEDBF96298A8D44A /* SwifterSearch.swift in Sources */,
-				37EE807E93A4262499EBA2A3F5C5B545 /* SwifterSpam.swift in Sources */,
-				A3660664881757CAD0575B718B8FDB46 /* SwifterStreaming.swift in Sources */,
-				255DD5676CD2814CF5368DD683393CC2 /* SwifterSuggested.swift in Sources */,
-				9F0D6D2182D697579D8033B40B3524CB /* SwifterTag.swift in Sources */,
-				EEAB4F158824E3946B7DB54C28E8A634 /* SwifterTimelines.swift in Sources */,
-				1A38C600DE297BCF694DBFD2CEC6C1D4 /* SwifterTrends.swift in Sources */,
-				B069A377F525BFF784EB92440E5F6E45 /* SwifterTweets.swift in Sources */,
-				506174992E16303B4C306C82EA8BC398 /* SwifterUsers.swift in Sources */,
-				6E94388BBB53507A3E44BB6358179AA8 /* URL++.swift in Sources */,
-				9C74D7D16886D40A3F041019C436491D /* Utils.swift in Sources */,
+				D8C70D58BAC6549A79BAA3D66DCF9408 /* Data++.swift in Sources */,
+				2E76E79857A3310A51AA680562FDD280 /* Dictionary++.swift in Sources */,
+				91B4F62A484E6CFF12D52A70CC330FB8 /* HMAC.swift in Sources */,
+				311B5E9601335CAF0AE7A068E76F742C /* Int++.swift in Sources */,
+				659281BA46B55CEB6DB57676E8283CF1 /* JSON.swift in Sources */,
+				16C606D7125593213A783F0AE328330B /* Operator++.swift in Sources */,
+				AC877BF59A50DAA312FAF5525FC18FE3 /* Scanner++.swift in Sources */,
+				B3A678F3C716F072C5931E900205CE5F /* SHA1.swift in Sources */,
+				A4C27E33CFA7020DCF2A7D2927AD3395 /* String++.swift in Sources */,
+				84F4B2A3BECAA0540441F5BDA55435E3 /* Swifter-dummy.m in Sources */,
+				E6B294B7F7BF249619F6FAC27E801DB4 /* Swifter.swift in Sources */,
+				D4B84237CC1198804953038631E69836 /* SwifterAccountsClient.swift in Sources */,
+				386B356F52A1F62AD4FA35C2D7F889BB /* SwifterAppOnlyClient.swift in Sources */,
+				92B0A3E6243D92594FBB3E5199BA6681 /* SwifterAuth.swift in Sources */,
+				E000B6C327A7C12E2DB13B460A0F1668 /* SwifterClientProtocol.swift in Sources */,
+				2373B98879FE453A34E1AAF067F5EF57 /* SwifterCredential.swift in Sources */,
+				628B17AEEF0B8B108B56A7926B2E7955 /* SwifterError.swift in Sources */,
+				C113459B8D4C86D0D65F0BB2EF941ED2 /* SwifterFavorites.swift in Sources */,
+				DEF507E5245F088F447D89F65A55A67E /* SwifterFollowers.swift in Sources */,
+				E2F3314E684722F630ECADABA0165EF8 /* SwifterGIF.swift in Sources */,
+				397F932D5C982049021AA068D5EB9831 /* SwifterHelp.swift in Sources */,
+				5707958BEE060EE091359E0DE62C8D43 /* SwifterHTTPRequest.swift in Sources */,
+				0FBAF8ABEC7807D9924A78BFB55382E9 /* SwifterLists.swift in Sources */,
+				742795A0FE50E8E60B7159E59FFEB2DB /* SwifterMessages.swift in Sources */,
+				8D81BAA178AD531226AA018AA00B1F75 /* SwifterOAuthClient.swift in Sources */,
+				1A2DE700EA623A0EC531294D4273A4AE /* SwifterPlaces.swift in Sources */,
+				006542C7EFFEF98710EE862FB0420C2A /* SwifterSavedSearches.swift in Sources */,
+				84A9B5EBA811ABCCE5FE52C02420A27F /* SwifterSearch.swift in Sources */,
+				2E98783495625562670BF06F6A63F453 /* SwifterSpam.swift in Sources */,
+				C7F9CBAC45A0E5477AEE342800E2A8C5 /* SwifterSuggested.swift in Sources */,
+				EE81964191F6BA82B087189545B8AE61 /* SwifterTag.swift in Sources */,
+				E0E542E3417576BD4A0C30D23EF1379C /* SwifterTimelines.swift in Sources */,
+				20E66BCC43EBFB8D0AAB99B8534F9DCE /* SwifterTrends.swift in Sources */,
+				406F61EC1C2CEF1E44DF33BAC52DCF8E /* SwifterTweets.swift in Sources */,
+				212BD8297E1B4BC5510A4187B22AFA3D /* SwifterUsers.swift in Sources */,
+				A1FE8F52D9549224E6669F320001EB5B /* URL++.swift in Sources */,
+				9C7D49D05AB594A82EC05E98DDBC0B55 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +690,42 @@
 			};
 			name = Debug;
 		};
+		1AC7DD940869418C8CB457F042C113D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2CCFE0F6337D840A740120117EF3CD /* Swifter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2245386B6EAA7D7EB3EC56BFC6AF2068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EEF6FF8E327CD4BC876716DF8CD2644 /* Pods-TrackThoughtfulTweetsTests.release.xcconfig */;
@@ -767,41 +803,6 @@
 			};
 			name = Debug;
 		};
-		4F6D7CDD73DC4601975C6E35D227F0FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51CD9AEE49958877D31E2EC0CF17E1CF /* Swifter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
-				PRODUCT_MODULE_NAME = Swifter;
-				PRODUCT_NAME = Swifter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6E392F1FBFF63997223475B0C3E8B72A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C84AA71C5214E570F4375D0E96126465 /* Pods-TrackThoughtfulTweets.release.xcconfig */;
@@ -834,42 +835,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8952CA565DC12AA9F9FE580360953083 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51CD9AEE49958877D31E2EC0CF17E1CF /* Swifter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
-				PRODUCT_MODULE_NAME = Swifter;
-				PRODUCT_NAME = Swifter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -934,6 +899,43 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B74AE954B5FCB5C8DC10FB084F3FE53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2CCFE0F6337D840A740120117EF3CD /* Swifter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1085,8 +1087,8 @@
 		B034C4E07A2C3A6CA032DD1D16577E6B /* Build configuration list for PBXNativeTarget "Swifter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F6D7CDD73DC4601975C6E35D227F0FA /* Debug */,
-				8952CA565DC12AA9F9FE580360953083 /* Release */,
+				1AC7DD940869418C8CB457F042C113D3 /* Debug */,
+				B74AE954B5FCB5C8DC10FB084F3FE53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
