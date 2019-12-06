@@ -28,14 +28,16 @@ struct Tweet: Codable {
     var text: String
 }
 
-struct LastFMData: Codable {
-    var tracks: [Track]?
+struct TimelineData: Codable {
+    var id: Double
+    var text: String
+    var entities: Entities?
 }
 
-struct Track: Codable {
-    var track: [Song]?
+struct Entities: Codable {
+    var media: [Media]?
 }
 
-struct Song: Codable {
-    var name: String?
+struct Media: Codable {
+    var media_url: String?
 }

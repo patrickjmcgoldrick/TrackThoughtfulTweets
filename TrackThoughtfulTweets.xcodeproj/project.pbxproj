@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E297D64239A39B300DF0812 /* homeTimeLine.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E297D63239A39B300DF0812 /* homeTimeLine.json */; };
 		5E3DD7672399D19D00AC7F84 /* CreateTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DD7662399D19D00AC7F84 /* CreateTweetViewController.swift */; };
 		5E3DD7692399F70400AC7F84 /* TweetSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DD7682399F70400AC7F84 /* TweetSender.swift */; };
 		5E5270D62394ED1A00E596DA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5270D52394ED1A00E596DA /* ImageLoader.swift */; };
@@ -23,6 +24,7 @@
 		5E86E1ED2392063A0031DBF3 /* TwitterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1EC2392063A0031DBF3 /* TwitterData.swift */; };
 		5E86E1EF2394A53A0031DBF3 /* TwitterDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */; };
 		5E86E1F32394B4140031DBF3 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */; };
+		5EC76F31239A3EE80065DDCB /* TimelineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC76F30239A3EE80065DDCB /* TimelineParser.swift */; };
 		A71FF361C0D2FA7FD253EA8F /* Pods_TrackThoughtfulTweetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210C2E4D49CB5FD38D4CBFF8 /* Pods_TrackThoughtfulTweetsTests.framework */; };
 		BFFFF24B2913E7FA0A7C699C /* Pods_TrackThoughtfulTweets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2383C8352B682BFE34FC5116 /* Pods_TrackThoughtfulTweets.framework */; };
 		D7A457F57B347524C3879D4D /* Pods_TrackThoughtfulTweets_TrackThoughtfulTweetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302625661A980A3F7F638180 /* Pods_TrackThoughtfulTweets_TrackThoughtfulTweetsUITests.framework */; };
@@ -50,6 +52,7 @@
 		210C2E4D49CB5FD38D4CBFF8 /* Pods_TrackThoughtfulTweetsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackThoughtfulTweetsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2383C8352B682BFE34FC5116 /* Pods_TrackThoughtfulTweets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackThoughtfulTweets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		302625661A980A3F7F638180 /* Pods_TrackThoughtfulTweets_TrackThoughtfulTweetsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackThoughtfulTweets_TrackThoughtfulTweetsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E297D63239A39B300DF0812 /* homeTimeLine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = homeTimeLine.json; path = testData/homeTimeLine.json; sourceTree = SOURCE_ROOT; };
 		5E3DD7662399D19D00AC7F84 /* CreateTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetViewController.swift; sourceTree = "<group>"; };
 		5E3DD7682399F70400AC7F84 /* TweetSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetSender.swift; sourceTree = "<group>"; };
 		5E5270D52394ED1A00E596DA /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterDataLoader.swift; sourceTree = "<group>"; };
 		5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		5E90E20C73112829947072D2 /* Pods-TrackThoughtfulTweetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackThoughtfulTweetsTests.release.xcconfig"; path = "Target Support Files/Pods-TrackThoughtfulTweetsTests/Pods-TrackThoughtfulTweetsTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC76F30239A3EE80065DDCB /* TimelineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineParser.swift; sourceTree = SOURCE_ROOT; };
 		76F8811FA52B57970B1206C6 /* Pods-TrackThoughtfulTweets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackThoughtfulTweets.release.xcconfig"; path = "Target Support Files/Pods-TrackThoughtfulTweets/Pods-TrackThoughtfulTweets.release.xcconfig"; sourceTree = "<group>"; };
 		A39A24E5783AAF8E009D4A92 /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests/Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A825D64F64DAA648020D03AB /* Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.release.xcconfig"; path = "Target Support Files/Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests/Pods-TrackThoughtfulTweets-TrackThoughtfulTweetsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,15 +149,16 @@
 		5E86E1BB2391E4A90031DBF3 /* TrackThoughtfulTweets */ = {
 			isa = PBXGroup;
 			children = (
+				5EC76F30239A3EE80065DDCB /* TimelineParser.swift */,
 				5E86E1BC2391E4A90031DBF3 /* AppDelegate.swift */,
 				5E86E1BE2391E4A90031DBF3 /* SceneDelegate.swift */,
 				5E5271D623960FA400E596DA /* LoginViewController.swift */,
+				5E86E1C02391E4A90031DBF3 /* FeedViewController.swift */,
+				5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */,
 				5E3DD7662399D19D00AC7F84 /* CreateTweetViewController.swift */,
 				5E3DD7682399F70400AC7F84 /* TweetSender.swift */,
-				5E86E1C02391E4A90031DBF3 /* FeedViewController.swift */,
 				5E86E1EC2392063A0031DBF3 /* TwitterData.swift */,
 				5E86E1EE2394A53A0031DBF3 /* TwitterDataLoader.swift */,
-				5E86E1F22394B4140031DBF3 /* FeedTableViewCell.swift */,
 				5E5270D52394ED1A00E596DA /* ImageLoader.swift */,
 				5E86E1C52391E4AB0031DBF3 /* Assets.xcassets */,
 				5E86E1C72391E4AB0031DBF3 /* LaunchScreen.storyboard */,
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				5E86E1D32391E4AC0031DBF3 /* TrackThoughtfulTweetsTests.swift */,
+				5E297D63239A39B300DF0812 /* homeTimeLine.json */,
 				5E86E1D52391E4AC0031DBF3 /* Info.plist */,
 			);
 			path = TrackThoughtfulTweetsTests;
@@ -313,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E297D64239A39B300DF0812 /* homeTimeLine.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +460,7 @@
 				5E5270D62394ED1A00E596DA /* ImageLoader.swift in Sources */,
 				5E86E1EF2394A53A0031DBF3 /* TwitterDataLoader.swift in Sources */,
 				5E86E1C12391E4A90031DBF3 /* FeedViewController.swift in Sources */,
+				5EC76F31239A3EE80065DDCB /* TimelineParser.swift in Sources */,
 				5E86E1F32394B4140031DBF3 /* FeedTableViewCell.swift in Sources */,
 				5E3DD7672399D19D00AC7F84 /* CreateTweetViewController.swift in Sources */,
 				5E3DD7692399F70400AC7F84 /* TweetSender.swift in Sources */,

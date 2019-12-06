@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Swifter
 
 class FeedViewController: UIViewController, UITableViewDelegate {
 
@@ -20,6 +21,7 @@ class FeedViewController: UIViewController, UITableViewDelegate {
     @IBOutlet private weak var tvPosts: UITableView!
     
     // MARK: - parameters
+    var swifter: Swifter?
     var user: User?
     var tweets = [Tweet]()
 
@@ -36,6 +38,12 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         loadFeedData()
     }
 
+    @IBAction func btnNewTweet(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "toCreateTweet", sender: self)
+    }
+    
+    
     private func loadUserData() {
         
         let loader = TwitterDataLoader()
@@ -128,52 +136,13 @@ class FeedViewController: UIViewController, UITableViewDelegate {
             }
         }
     }
-    
-    private func parseLastFMData(data: Data) {
-               
-        print(String(bytes: data, encoding: .utf8)!)
-
-        // background the loading / parsing elements
-        DispatchQueue.global(qos: .background).async {
-
-            do {
-
-                // create decoder
-                let jsonDecoder = JSONDecoder()
-
-                // decode json into structs
-                let tracks = try jsonDecoder.decode(LastFMData.self, from: data)
-
-                print("TRACKS: \(tracks)") //.tracks[0].songs[0].name)")
-
-            } catch {
-                print("Error Parsing JSON: \(error.localizedDescription)")
-            }
-/*
-           DispatchQueue.main.async {
-               guard let user = self.user
-                   else { return }
-               self.lblName.text = user.name
-               self.lblDescription.text = user.description
-               
-               self.loadImageInto(imageView: self.ivProfile, urlString: user.profile_image_url)
-                               
-               self.tvPosts.reloadData()
-           }
- */
-        }
-    }
 
     /// Code from youtube video:  https://www.youtube.com/watch?v=edENrmrAOB4
     
     @IBAction private func btnActionPost(_ sender: Any) {
         
-        TwitterDataLoader().loadLastFMData { (data) in
-            
-            self.parseLastFMData(data: data)
-            
             //print (String(bytes: data, encoding: .utf8)!)
-        }
+    
         
         /*
         if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
@@ -210,6 +179,13 @@ class FeedViewController: UIViewController, UITableViewDelegate {
         
 */
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? CreateTweetViewController else { return }
+        destination.swifter = swifter
+    }
+    
+    
 }
 
 extension FeedViewController: UITableViewDataSource {

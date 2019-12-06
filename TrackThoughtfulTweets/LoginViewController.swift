@@ -26,8 +26,8 @@ class LoginViewController: UIViewController {
 
         swifter.authorize(withCallback: url, presentingFrom: self,
             success: { _, _ in
-                self.performSegue(withIdentifier: "toCreateTweet", sender: self)
-            },
+                //self.fetchTwitterHomeStream()
+                self.performSegue(withIdentifier: "toFeed", sender: self)            },
             failure:  { error in
                 print ("Error: \(error.localizedDescription)")
             }
@@ -35,12 +35,12 @@ class LoginViewController: UIViewController {
         
     }
 
-    func fetchTwitterHomeStream(swifter: Swifter) {
+    func fetchTwitterHomeStream() {
         swifter.getHomeTimeline(count: 20, success: { json in
             // Successfully fetched timeline, so lets create and push the table view
             var jsonResult = json.array ?? []
             print (jsonResult)
-            //self.performSegue(withIdentifier: "showTweets", sender: self)
+            //self.performSegue(withIdentifier: "toFeed", sender: self)
         }, failure:  { error in
             print ("Home Stream Error: \(error.localizedDescription)")
 //            self.alert(title: "Home Stream Error", message: error.localizedDescription)
@@ -49,7 +49,7 @@ class LoginViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let destination = segue.destination as? CreateTweetViewController else { return }
+        guard let destination = segue.destination as? FeedViewController else { return }
         destination.swifter = swifter
     }
 
