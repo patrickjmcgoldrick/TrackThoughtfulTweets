@@ -87,6 +87,8 @@ class CreateTweetViewController: UIViewController, UINavigationControllerDelegat
             if let error = error {
                 self.alert(title: "Status Update Failed", message: error)
             }
+            
+            _ = self.navigationController?.popViewController(animated: true)
         }
     }
     
